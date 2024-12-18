@@ -1,6 +1,6 @@
 # PROJETO HUDDLE PAGE 🤩✨
 
-[<img src="Css/images/logo.svg" alt="">]
+[<img src="Css/images/logo.svg" alt="imagem do logo Huddle">]
 
 ## Informações 
 
