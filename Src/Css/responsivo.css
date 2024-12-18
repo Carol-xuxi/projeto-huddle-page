@@ -1,0 +1,41 @@
+@media (max-width:425px) {
+
+    .conteudo-principal {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        width: 100%;
+        margin: 25px auto;
+    }
+
+    .imagem-principal{
+        width: 100%;
+    }
+
+    .conteudo-principal .informacoes-conteudo-principal {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .conteudo-principal .informacoes-conteudo-principal .titulo {
+        text-align: center;
+        margin: auto;
+    }
+
+    .conteudo-principal .informacoes-conteudo-principal .texto {
+        padding: 20px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .redes-sociais{
+        justify-content: center;
+    }
+
+    .conteudo-principal .informacoes-conteudo-principal .btn-registrar {
+        margin: auto;
+        text-align: center;
+    }
+}
