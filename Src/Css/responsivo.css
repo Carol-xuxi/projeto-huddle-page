@@ -1,4 +1,12 @@
 @media (max-width:425px) {
+    body{
+        background: url('images/bg-mobile.svg')  hsl(257, 40%, 49%)  no-repeat center center;
+    }
+
+    .logo img{
+        max-width: 100%;
+
+    }
 
     .conteudo-principal {
         flex-direction: column;
@@ -10,7 +18,7 @@
     }
 
     .imagem-principal{
-        width: 100%;
+        width: 120%;
     }
 
     .conteudo-principal .informacoes-conteudo-principal {
@@ -22,18 +30,38 @@
     .conteudo-principal .informacoes-conteudo-principal .titulo {
         text-align: center;
         margin: auto;
+        font-size: 35px;
     }
 
     .conteudo-principal .informacoes-conteudo-principal .texto {
         padding: 20px;
         text-align: center;
         margin: 0;
+        font-size: 20px;
     }
 
     .redes-sociais{
         justify-content: center;
     }
 
+    .redes-sociais li{
+        margin-bottom: 20px;
+    }
+
+    .redes-sociais .icone-facebook a{
+        font-size: 25px;
+        padding: 10px 20px;
+    }
+
+    .redes-sociais .icone-twitter a{
+        font-size: 25px;
+        padding: 10px 15px;
+    }
+
+    .redes-sociais .icone-instagram a{
+        font-size: 25px;
+        padding: 10px 15px;
+    }
     .conteudo-principal .informacoes-conteudo-principal .btn-registrar {
         margin: auto;
         text-align: center;
