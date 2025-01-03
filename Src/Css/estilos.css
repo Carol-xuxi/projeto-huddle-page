@@ -1,0 +1,105 @@
+body{
+    background: url('../Css/images/bg-desktop.svg') hsl(257, 40%, 49%) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Poppins' , sans-serif;
+    padding: 50px;
+}
+
+.logo img{
+    max-width: 15%;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+
+.conteudo-principal{
+    display: flex;
+    width: 100%;
+    gap: 60px;
+}
+
+
+.informacoes-conteudo-principal{
+    padding: 60px 20px;
+}
+
+.informacoes-conteudo-principal .titulo{
+    color: #fff;
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+
+.informacoes-conteudo-principal .texto{
+    color: #fff;
+    max-width: 500px;
+    margin-bottom: 15px;
+}
+
+.informacoes-conteudo-principal .btn-registrar{
+    color: hsl(257, 40%, 49%);
+    background-color: #fff;
+    padding: 10px 50px;
+    border-radius: 70px;
+    transition: 0.3s ease-in-out;
+}
+
+.informacoes-conteudo-principal .btn-registrar:hover{
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    color: #fff;
+}
+
+.redes-sociais .icone-facebook a{
+    color: #fff;
+    font-size: 12px;
+    border: solid 1px #fff;
+    padding:5px 10px;
+    border-radius: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.redes-sociais .icone-facebook a:hover{
+    color: hsl(300, 69%, 71%);
+    border: solid 1px hsl(300, 69%, 71%);
+    border-radius: 100%;
+}
+
+.redes-sociais .icone-twitter a{
+    color: #fff;
+    font-size: 12px;
+    border: solid 1px #fff;
+    padding: 5px 8px;
+    border-radius: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+
+.redes-sociais .icone-twitter a:hover{
+    color: hsl(300, 69%, 71%);
+    border: solid 1px hsl(300, 69%, 71%);
+    border-radius: 100%;
+}
+
+.redes-sociais .icone-instagram a{
+    color: #fff;
+    font-size: 14px;
+    border: solid 1px #fff;
+    padding: 5px 8px;
+    border-radius: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+
+.redes-sociais .icone-instagram a:hover{
+    color: hsl(300, 69%, 71%);
+    border: solid 1px hsl(300, 69%, 71%);
+    border-radius: 100%;
+}
